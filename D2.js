@@ -176,7 +176,9 @@ const me3 = {
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
 }
-//CREDEVO DI DOVER USARE me3.pop() MA NON FUNZION
+me3.skills.pop([2])
+console.log(me3)
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 14
