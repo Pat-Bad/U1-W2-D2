@@ -66,10 +66,13 @@ console.log((result8 = 16 - whole3))
 */
 
 let totalShoppingCart = 80
+let shippingCost = 10
+let totalToPay = totalShoppingCart + shippingCost
 if (totalShoppingCart >= 50) {
+  totalToPay = totalShoppingCart
   console.log('spedizione gratuita')
 } else if (totalShoppingCart < 50) {
-  console.log('costo spedizione 10 euro')
+  totalToPay = totalShoppingCart + shippingCost
 }
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -132,13 +135,13 @@ if (x % 2 === 0) {
       console.log("Uguale a 10 o maggiore");
     }
 */
-let val = 7
-if (val < 10) {
-  console.log('Meno di 10')
+let val = 2
+if (val < 5) {
+  console.log('Meno di 5')
 } else if (val >= 10) {
   console.log('Uguale a 10 o maggiore')
-} else if (val < 5) {
-  console.log('Meno di 5')
+} else if (val < 10) {
+  console.log('Meno di 10')
 }
 /* SCRIVI QUI LA TUA RISPOSTA */
 
